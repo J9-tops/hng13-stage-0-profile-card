@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <article class="content" data-testid="test-profile-card">
+      <div class="card">
+        <div class="firstinfo">
+          <figure class="profile-picture">
+            <img
+              src="./asssets/profile.png"
+              alt="profile-picture"
+              class="profile-image"
+              data-testid="test-user-avatar"
+            />
+          </figure>
+          <div class="profileinfo">
+            <h2 data-testid="test-user-name" aria-label="name">Jimmy Smart</h2>
+            <h1>Frontend Developer</h1>
+            <p class="bio" data-testid="test-user-bio">
+              Passionate about crafting interactive and accessible user
+              experiences, I specialize in React, TypeScript, and modern UI
+              frameworks.
+            </p>
+            <div class="user-info">
+              <section class="hobbies-contianer">
+                <p>Hobbies -</p>
+                <ul class="hobbies-list" data-testid="test-user-hobbies">
+                  <li>Coding</li>
+                  <li>Playing Chess</li>
+                </ul>
+              </section>
+              <span>|</span>
+              <section class="dislikes-contianer">
+                <p>Dislikes -</p>
+                <ul class="dislikes-list" data-testid="test-user-dislikes">
+                  <li>Slow Wi-Fi</li>
+                </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="social-links" data-testid="test-user-social-links">
+        <a
+          href="https://github.com/J9-tops"
+          target="_blank"
+          rel="noopener"
+          data-testid="test-user-social-github"
+        >
+          <img
+            alt="github"
+            src="./asssets/github-original.svg"
+            width="20"
+            height="20"
+          />
+        </a>
+        <a
+          href="https://x.com/jimmy9sm"
+          target="_blank"
+          rel="noopener"
+          data-testid="test-user-social-x"
+        >
+          <img
+            alt="github"
+            src="./asssets/twitter-original.svg"
+            width="20"
+            height="20"
+          />
+        </a>
+      </nav>
+
+      <p class="utc-time" data-testid="test-user-time"></p>
+    </article>
+  </body>
+</html>
