@@ -18,11 +18,29 @@ This project showcases a profile card created using HTML, CSS, and Vanilla JavaS
 
 ## Live Demo:
 
-You can view the live version of the profile card [https://profilecardhng.netlify.app/].
+You can view the live version of the profile card [https://profile-card-i13.netlify.app/].
 
 ## How to Use:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/profile-card.git
+   git clone https://github.com/<your-username>/hng13-stage-0-profile-card.git
+   ````
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd hng13-stage-0-profile-card
    ```
+
+3. Open the `index.html` file in your browser:
+
+   * Double-click the file, or
+   * Use a local server:
+
+     **Using VS Code Live Server:**
+
+     * Install the “Live Server” extension in VS Code.
+     * Right-click `index.html` → “Open with Live Server”.
+
+
