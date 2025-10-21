@@ -123,6 +123,22 @@ body {
   font-size: 0.875rem;
 }
 
+figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ figcaption .about-me-link {
+    font-size: 0.875rem;
+    color: white;
+    text-decoration: none;
+    
+  }
+
+   figcaption .about-me-link:hover {
+    text-decoration: underline;
+   }
+
 @keyframes animatop {
   0% {
     opacity: 0;
@@ -258,6 +274,8 @@ body {
     font-size: 1.5rem;
     width: 100%;
   }
+
+
 
   .card {
     width: 90%;
