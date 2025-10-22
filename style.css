@@ -141,8 +141,14 @@ figcaption .about-me-link:hover {
   text-decoration: underline;
 }
 
-.contact-me-link {
+.ad-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
   margin-left: auto;
+}
+
+.contact-me-link, .about-me-link {
   font-size: 0.875rem;
   color: white;
   text-decoration: none;
@@ -227,8 +233,8 @@ figcaption .about-me-link:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.social-links a:last-child:hover {
-  transform: none;
+.no-rotate:hover {
+  transform: none !important;
 }
 
 .social-links a:active {

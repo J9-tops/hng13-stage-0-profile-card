@@ -18,13 +18,14 @@
       <div class="card">
         <div class="firstinfo">
           <figure class="profile-picture">
-            <img
-              src="./asssets/profile.png"
-              alt="profile-picture"
-              class="profile-image"
-              data-testid="test-user-avatar"
-            />
-            <figcaption><a href="/about.html" class="about-me-link">About me</a></figcaption>
+            <a href="/about.html">
+              <img
+                src="./asssets/profile.png"
+                alt="profile-picture"
+                class="profile-image"
+                data-testid="test-user-avatar"
+              />
+            </a>
           </figure>
           <div class="profileinfo">
             <h2 data-testid="test-user-name" aria-label="name">Jimmy Smart</h2>
@@ -80,7 +81,12 @@
             height="20"
           />
         </a>
-        <a href="/contact.html" class="contact-me-link">Contact Me</a>
+        <div class="ad-links">
+          <a href="/about.html" class="about-me-link no-rotate">About me</a>
+          <a href="/contact.html" class="contact-me-link no-rotate"
+            >Contact Me</a
+          >
+        </div>
       </nav>
 
       <p class="utc-time" data-testid="test-user-time"></p>
